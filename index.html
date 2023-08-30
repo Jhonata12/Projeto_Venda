@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Login Venda</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+<header>
+    <img src="PORTAL CLIENTE teste.png" alt="" class="img3">
+
+
+</header>
+    
+
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
+            
+
+<figure class="container">
+        
+        
+           <input type="text" placeholder="Usuario" id="login"> 
+       
+
+
+
+
+        
+            <input type="password" placeholder="Senha" id="senha">
+            
+            <a href="/">Esqueci minha senha</a>
+</figure>
+
+           
+            <input type="submit" onclick="entrar()" class="btn" id="btn" >
+        </form>
+    </div>
+
+
+
+        <script>
+
+            function entrar(){
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            const url = 'https://jhonata12.github.io/Teste/'
+
+
+            if(login == "nayara" && senha == "1234"){
+                alert('Bem vinda');
+                window.open('https://jhonata12.github.io/Teste/');
+
+            } 
+           
+            if(login == "Thainá frança" && senha == "baby1719"){
+                alert('Bem vinda');
+                window.open('https://jhonata12.github.io/Teste/');
+                
+            }
+            if(login == "jhonata" && senha == "1234"){
+                alert('Bem vindo');
+                window.open('https://jhonata12.github.io/Teste/');
+                
+            }else{
+                alert('Usuario ou senha incorretos');
+            }
+           
+        }  
+
+        </script>
+    
+</body>
+
+</html>
