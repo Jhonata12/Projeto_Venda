@@ -120,10 +120,10 @@ a{
 
   }
   #login{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
   }
   #senha{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
   }
 
   @media (min-width: 100px) and (max-width: 369px){
